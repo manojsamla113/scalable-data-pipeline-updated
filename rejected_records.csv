@@ -1,0 +1,5 @@
+source_file,source_line,original_record,rejection_reason
+data/input/transactions.csv,5,"{""transaction_id"": ""T1004"", ""customer_id"": ""C0004"", ""amount"": ""-20.00"", ""status"": ""SUCCESS"", ""event_timestamp"": ""2026-10-30T10:15:00Z""}",Amount must be numeric and greater than zero; 
+data/input/transactions.csv,6,"{""transaction_id"": ""T1005"", ""customer_id"": ""C9999"", ""amount"": ""50.00"", ""status"": ""SUCCESS"", ""event_timestamp"": ""2026-10-30T10:20:00Z""}",Customer reference does not exist; 
+data/input/transactions.csv,7,"{""transaction_id"": ""T1006"", ""customer_id"": ""C0005"", ""amount"": ""90.00"", ""status"": ""UNKNOWN"", ""event_timestamp"": ""not-a-timestamp""}",Invalid transaction status; Invalid event timestamp; 
+data/input/transactions.csv,10,"{""transaction_id"": ""T1008"", ""customer_id"": ""C0007"", ""amount"": ""45.00"", ""status"": ""SUCCESS"", ""event_timestamp"": ""2026-10-30T10:30:00Z""}",Duplicate transaction ID within input

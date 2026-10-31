@@ -1,0 +1,11 @@
+{
+  "database_path": "data/output/transactions.db",
+  "customers_path": "data/input/customers.csv",
+  "rejects_path": "data/rejects/rejected_records.csv",
+  "report_path": "reports/reconciliation.json",
+  "allowed_statuses": [
+    "SUCCESS",
+    "PENDING",
+    "FAILED"
+  ]
+}

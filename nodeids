@@ -1,0 +1,7 @@
+[
+  "tests/test_pipeline.py::test_csv_valid_records_and_reconciliation",
+  "tests/test_pipeline.py::test_duplicate_within_file_is_rejected",
+  "tests/test_pipeline.py::test_invalid_record_is_quarantined",
+  "tests/test_pipeline.py::test_jsonl_malformed_line_is_rejected",
+  "tests/test_pipeline.py::test_rerun_does_not_duplicate_target_rows"
+]

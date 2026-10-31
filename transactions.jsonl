@@ -1,0 +1,4 @@
+{"transaction_id": "J2001", "customer_id": "C0001", "amount": 100, "status": "SUCCESS", "event_timestamp": "2026-10-30T10:00:00Z"}
+{"transaction_id": "J2002", "customer_id": "C0002", "amount": 200, "status": "PENDING", "event_timestamp": "2026-10-30T10:05:00Z"}
+{malformed json
+{"transaction_id": "J2003", "customer_id": "C0003", "amount": -5, "status": "FAILED", "event_timestamp": "2026-10-30T10:10:00Z"}

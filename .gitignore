@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+data/output/*.db
+data/rejects/*.csv
+!data/rejects/rejected_records.csv
+reports/*.json
+reports/*.csv
+.pytest_cache/
